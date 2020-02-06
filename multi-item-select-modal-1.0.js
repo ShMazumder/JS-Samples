@@ -1,4 +1,3 @@
-<script type="text/javascript">
 
 	var ESM = {
 		isModalCreated:false,
@@ -339,4 +338,3 @@
 		}
 	}
 
-</script>
