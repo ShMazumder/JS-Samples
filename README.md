@@ -4,12 +4,19 @@
 
 ## Sample use:
 
-i. Adding a Trigger:
+i. Adding Trigger with only Post Callback method:
+
+```JS
+ESM.addTrigger('button_id', function(selectedDataAsArray){
+	console.log("Post-Callback");
+});
+```
+
+ii. Adding a Trigger with Pre && Post Callback methods:
 ```JS
 ESM.addTriggerWithPreCallback('button_id', function(){
 	console.log("Pre-Callback");
 }, function(selectedDataAsArray){
-	// modal show
 	console.log("Post-Callback");
 });
 ```
