@@ -2,6 +2,14 @@
 
 # multi-item-select-modal-1.0.js
 
+## Getting Started
+
+Setup:
+
+```JS
+<script src="multi-item-select-modal-1.0.js"></script>
+```
+
 ## Sample use:
 
 i. Adding Trigger with only Post Callback method:
