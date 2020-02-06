@@ -1,12 +1,11 @@
 # JS-Samples
 
 # multi-item-select-modal-1.0.js
-Sample use:
+
+## Sample use:
 
 i. Adding a Trigger:
-
 ```JS
-	
 ESM.addTriggerWithPreCallback('button_id', function(){
 	console.log("Pre-Callback");
 }, function(selectedDataAsArray){
