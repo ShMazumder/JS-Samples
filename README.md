@@ -10,6 +10,13 @@ Setup:
 <script src="multi-item-select-modal-1.0.js"></script>
 ```
 
+```JS
+var options = {
+	data:AGAMiLabsEmployeeList
+};
+ESM.setup(options);
+```
+
 ## Sample use:
 
 i. Adding Trigger with only Post Callback method:
