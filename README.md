@@ -5,7 +5,7 @@ Sample use:
 
 i. Adding a Trigger:
 
-<code>
+```JS
 	
 ESM.addTriggerWithPreCallback('button_id', function(){
 	console.log("Pre-Callback");
@@ -13,5 +13,4 @@ ESM.addTriggerWithPreCallback('button_id', function(){
 	// modal show
 	console.log("Post-Callback");
 });
-	
-</code>
+```
